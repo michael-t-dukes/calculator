@@ -33,4 +33,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: ls
     - run: npx eslint src/.
