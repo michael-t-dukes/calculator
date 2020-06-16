@@ -33,5 +33,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Running ESLint + Security Scan
     - run: npx eslint src/.
